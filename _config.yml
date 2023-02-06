@@ -9,7 +9,7 @@ version: 2
 name: Alejandro Ezequiel Cabero
 title: Estudiante UNAHUR en Programacion
 email: alecabero93@gmail.com
-website: https://alecabero.github.io/Ale-C.V/
+website: https://alecabero.github.io/Ale-system/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -50,8 +50,6 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hola soy Alejandro Cabero, estudio en la UNAHUR tecnicatura en programacion.
   tengo conocimientos en HTML,CSS,V.B,python y javascript
-
-
 - title: Expriencia # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -99,15 +97,3 @@ about_content: | # this will include new lines to allow paragraphs
         title: Secundaria N° 24 “José Manuel Estrada
         caption: 2009 - 2011
         sub_title: bachiller
-  
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
