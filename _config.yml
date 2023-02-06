@@ -97,3 +97,17 @@ about_content: | # this will include new lines to allow paragraphs
         title: Secundaria N° 24 “José Manuel Estrada
         caption: 2009 - 2011
         sub_title: bachiller
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
